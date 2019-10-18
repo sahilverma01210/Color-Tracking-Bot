@@ -2,7 +2,7 @@
 Bot on wheels detects object with a particular color using OpenCV running on PC and follows it.
 # Bot on Wheels
 <img src="https://github.com/SahilVerma0651/Color-Tracking-Bot/blob/master/Bot.jpg"/>
-# Components
+# Bot on Wheels
 1. Raspberry Pi 3 B+
 2. LM293D Motor Driver
 3. Camera (can use Pi-Cam)
@@ -10,7 +10,7 @@ Bot on wheels detects object with a particular color using OpenCV running on PC 
 5. Car/Bot Chassis
 6. Host PC or Laptop
 7. Wires
-# Components
+# Circuit
 Pins can be updated in SlaveRPi.py script according to the pin configuration shown in bellow circuit diagram.
 <img src="https://github.com/SahilVerma0651/Color-Tracking-Bot/blob/master/Circuit.jpg"/>
 # Detecting Blue Objects
