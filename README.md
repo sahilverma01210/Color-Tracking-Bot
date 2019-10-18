@@ -8,8 +8,9 @@ Bot on wheels detects object with a particular color using OpenCV running on PC 
 <br/>3. Camera (can use Pi-Cam)
 <br/>4. Two DC Motors
 <br/>5. Car/Bot Chassis
-<br/>6. Host PC or Laptop
-<br/>7. Wires<br/>
+<br/>6. Power source for raspberry pi
+<br/>7. Host PC or Laptop
+<br/>8. Wires<br/>
 # Circuit
 Pins can be updated in SlaveRPi.py script according to the pin configuration shown in bellow circuit diagram.
 <img src="https://github.com/SahilVerma0651/Color-Tracking-Bot/blob/master/Circuit.jpg"/><br/>
