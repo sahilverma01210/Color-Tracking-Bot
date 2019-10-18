@@ -10,7 +10,7 @@ Bot on wheels detects object with a particular color using OpenCV running on PC 
 5. Car/Bot Chassis
 6. Host PC or Laptop
 7. Wires
-# Circuit
+# Components
 Pins can be updated in SlaveRPi.py script according to the pin configuration shown in bellow circuit diagram.
 <img src="https://github.com/SahilVerma0651/Color-Tracking-Bot/blob/master/Circuit.jpg"/>
 # Detecting Blue Objects
