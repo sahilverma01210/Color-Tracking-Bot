@@ -1,3 +1,5 @@
+# Color-Tracking-Bot
+Bot on wheels detects object with a particular color using OpenCV running on PC and follows it.
 # Components
 <br/>1. Raspberry Pi 3 B+
 <br/>2. LM293D Motor Driver
