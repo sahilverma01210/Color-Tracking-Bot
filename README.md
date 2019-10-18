@@ -1,5 +1,7 @@
 # Color-Tracking-Bot
 Bot on wheels detects object with a particular color using OpenCV running on PC and follows it.
+# Bot on Wheels
+<img src="https://github.com/SahilVerma0651/Color-Tracking-Bot/blob/master/Bot.jpg" /><br/>
 # Components
 <br/>1. Raspberry Pi 3 B+
 <br/>2. LM293D Motor Driver
@@ -7,4 +9,13 @@ Bot on wheels detects object with a particular color using OpenCV running on PC 
 <br/>4. Two DC Motors
 <br/>5. Car/Bot Chassis
 <br/>6. Host PC or Laptop
-<br/>7. Wires
+<br/>7. Wires<br/>
+# Circuit
+Pins can be updated in SlaveRPi.py script according to the pin configuration shown in bellow circuit diagram.
+<img src="https://github.com/SahilVerma0651/Color-Tracking-Bot/blob/master/Circuit.jpg"/><br/>
+# Detecting Blue Objects
+<br/>Frames from camera connected to Raspberry Pi are sent over the loop using SlaveRPi.py and received by MasterPC.py listning on port 5555 of host PC using zmq sockets.
+<br/><br/>Recieved frames are processed on host (MasterPC.py) and command messge is sent in the same loop using another socket on 12345 PC port to Bot (raspberry pi) to move in direction of object detected.
+<br/><br/>Also image frames showing detected objects are being hosted on PC localhost on a LAN Network using flask.
+<br/><br/>Devices connected on same LAN as of PC and RPi can see detected object on their respective browsers.
+<br/><br/><br/><img src="https://github.com/SahilVerma0651/Color-Tracking-Bot/blob/master/Blue%20Color%20Detect.png"/><br/>
